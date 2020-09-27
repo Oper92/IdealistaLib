@@ -1,10 +1,8 @@
 ﻿using IdealistaLib.Filters;
+using Newtonsoft.Json;
 using System;
 using System.Net.Http;
-using System.Net.Http.Headers;
 using System.Text;
-using System.Text.Json;
-using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using System.Web;
 
@@ -55,7 +53,7 @@ namespace IdealistaLib
                 if (response.IsSuccessStatusCode)
                 {
                     string jsonresponse = await response.Content.ReadAsStringAsync();
-                    var json = JsonSerializer.Deserialize<AuthResponse>(jsonresponse);
+                    var json = JsonConvert.DeserializeObject<AuthResponse>(jsonresponse);
                     this.BearerToken = json.access_token;
                     return json;
                 }
@@ -78,12 +76,9 @@ namespace IdealistaLib
             }
             Client.DefaultRequestHeaders.Clear();
             Client.DefaultRequestHeaders.TryAddWithoutValidation("Authorization", "Bearer " + this.BearerToken);
-            var method = new MultipartFormDataContent();
-            var requestContent = new MultipartFormDataContent();
-
             var response = await Client.PostAsync("/3.5/" + country + "/search", new StringContent(filter.ToString(), Encoding.UTF8, "application/x-www-form-urlencoded"));
             string jsonresponse = await response.Content.ReadAsStringAsync();
-            var json = JsonSerializer.Deserialize<SearchResponse>(jsonresponse);
+            var json = JsonConvert.DeserializeObject<SearchResponse>(jsonresponse);
             return json;
             }
             catch (Exception ex)

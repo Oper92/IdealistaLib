@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "Ydkb6YTsVGE2yR94vxqox8R/QrvAFpTaRquEkEY6TixtBqb+db0BwesbkJfF3t+0REn2OZF+N63qR+d4d1lzkA==",
+  "dgSpecHash": "uyKdPsybU22DnvbGBrcThOVbZkqws12wC9KxwmhhwhHvZ+DUQuIqHq9p7TGJAV3ewlUvW5Pz4fTpZKAFhybxhA==",
   "success": true,
   "projectFilePath": "C:\\Users\\marco\\OneDrive\\Desktop\\GitProjects\\IdealistaLib\\idealistaLib\\idealistaLib.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\marco\\.nuget\\packages\\microsoft.netcore.app\\2.0.0\\microsoft.netcore.app.2.0.0.nupkg.sha512",
+    "C:\\Users\\marco\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.0.0\\microsoft.netcore.dotnetapphost.2.0.0.nupkg.sha512",
+    "C:\\Users\\marco\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.0.0\\microsoft.netcore.dotnethostpolicy.2.0.0.nupkg.sha512",
+    "C:\\Users\\marco\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.0.0\\microsoft.netcore.dotnethostresolver.2.0.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\marco\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\marco\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

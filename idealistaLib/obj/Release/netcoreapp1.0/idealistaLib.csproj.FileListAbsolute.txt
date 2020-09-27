@@ -1,0 +1,4 @@
+C:\Users\marco\OneDrive\Desktop\GitProjects\IdealistaLib\idealistaLib\obj\Release\netcoreapp1.0\idealistaLib.csprojAssemblyReference.cache
+C:\Users\marco\OneDrive\Desktop\GitProjects\IdealistaLib\idealistaLib\obj\Release\netcoreapp1.0\idealistaLib.AssemblyInfoInputs.cache
+C:\Users\marco\OneDrive\Desktop\GitProjects\IdealistaLib\idealistaLib\obj\Release\netcoreapp1.0\idealistaLib.AssemblyInfo.cs
+C:\Users\marco\OneDrive\Desktop\GitProjects\IdealistaLib\idealistaLib\obj\Release\netcoreapp1.0\idealistaLib.csproj.CoreCompileInputs.cache
