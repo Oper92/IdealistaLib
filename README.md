@@ -1,6 +1,6 @@
-# IdealistaLib
-This is a  .NET Core library written in C# that can be used in order to query Idealista APIs.
-
+# IdealistaLib .NET CORE 2.0
+This is a .NET Core 2.0 library written in C# that can be used in order to query Idealista APIs.
+This version uses NewtonSoft.Json as a dependency. Make sure your project has it in it!
 Please remember that according to Idealista current Policy (27/09/2020) access to their APIs has the following constraints:
 
 >  Access is free to a maximum of 100 req/month and it's limited by 1 req/sec. 
@@ -12,7 +12,8 @@ Marco Della Valle - marco.della.valle@hotmail.it
 
 # How can I use it?
 1. Add the dll to your project 
-1. Autenticate 
+1. Add NewtonSoft.Json to your project
+1. Autenticate
 ```csharp
 IdealistaAPI API = new IdealistaAPI("APIKEY", "APISECRET");
 var autentication = await API.Authenticate();
