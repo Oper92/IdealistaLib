@@ -1,5 +1,5 @@
 # IdealistaLib
-This is a  .NET Core library written in C# that can be used in order to query Idealista APIs.
+This is a  .NET Core 3.0 library written in C# that can be used in order to query Idealista APIs (Please check the other branch for the .Net Core 2.0 version).
 
 Please remember that according to Idealista current Policy (27/09/2020) access to their APIs has the following constraints:
 
