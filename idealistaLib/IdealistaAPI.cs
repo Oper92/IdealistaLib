@@ -14,9 +14,7 @@ namespace IdealistaLib
 
     public class IdealistaAPI
     {
-
         public HttpClient Client { get; }
-
         private string APIKey { get; set; }
         private string APISecret { get; set; }
         private string KEYSECRET { get; set; }
@@ -28,7 +26,7 @@ namespace IdealistaLib
             APIKey = key; // setting up APIKey
             APISecret = secret;  // setting up APISecret
             string encodedkey = HttpUtility.UrlEncode(APIKey);
-            string encodedsecret = HttpUtility.UrlEncode(secret);
+            string encodedsecret = HttpUtility.UrlEncode(APISecret);
             byte[] data = System.Text.ASCIIEncoding.ASCII.GetBytes(encodedkey + ":" + encodedsecret);
             KEYSECRET = System.Convert.ToBase64String(data);
             Client = new HttpClient();
