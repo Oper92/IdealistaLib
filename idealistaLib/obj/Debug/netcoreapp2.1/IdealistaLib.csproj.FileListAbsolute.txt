@@ -1,0 +1,6 @@
+C:\Users\marco\source\repos\IdealistaLib\IdealistaLib\bin\Debug\netcoreapp2.1\IdealistaLib.deps.json
+C:\Users\marco\source\repos\IdealistaLib\IdealistaLib\bin\Debug\netcoreapp2.1\IdealistaLib.dll
+C:\Users\marco\source\repos\IdealistaLib\IdealistaLib\obj\Debug\netcoreapp2.1\IdealistaLib.csprojAssemblyReference.cache
+C:\Users\marco\source\repos\IdealistaLib\IdealistaLib\obj\Debug\netcoreapp2.1\IdealistaLib.csproj.CoreCompileInputs.cache
+C:\Users\marco\source\repos\IdealistaLib\IdealistaLib\obj\Debug\netcoreapp2.1\IdealistaLib.AssemblyInfoInputs.cache
+C:\Users\marco\source\repos\IdealistaLib\IdealistaLib\obj\Debug\netcoreapp2.1\IdealistaLib.AssemblyInfo.cs

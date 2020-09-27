@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "idealistaLib", "idealistaLib\idealistaLib.csproj", "{B1759D93-CE6B-48F2-B0D2-16C4A0328ACB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1759D93-CE6B-48F2-B0D2-16C4A0328ACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1759D93-CE6B-48F2-B0D2-16C4A0328ACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1759D93-CE6B-48F2-B0D2-16C4A0328ACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1759D93-CE6B-48F2-B0D2-16C4A0328ACB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB3BB6D1-4907-4E83-BC9A-5562035630F3}
+	EndGlobalSection
+EndGlobal

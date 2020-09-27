@@ -1,0 +1,16 @@
+C:\Users\marco\source\repos\IdealistaLib\IdealistaLib\bin\Debug\netcoreapp3.1\IdealistaLib.deps.json
+C:\Users\marco\source\repos\IdealistaLib\IdealistaLib\bin\Debug\netcoreapp3.1\IdealistaLib.dll
+C:\Users\marco\source\repos\IdealistaLib\IdealistaLib\bin\Debug\netcoreapp3.1\IdealistaLib.pdb
+C:\Users\marco\source\repos\IdealistaLib\IdealistaLib\obj\Debug\netcoreapp3.1\IdealistaLib.AssemblyInfoInputs.cache
+C:\Users\marco\source\repos\IdealistaLib\IdealistaLib\obj\Debug\netcoreapp3.1\IdealistaLib.AssemblyInfo.cs
+C:\Users\marco\source\repos\IdealistaLib\IdealistaLib\obj\Debug\netcoreapp3.1\IdealistaLib.csproj.CoreCompileInputs.cache
+C:\Users\marco\source\repos\IdealistaLib\IdealistaLib\obj\Debug\netcoreapp3.1\IdealistaLib.dll
+C:\Users\marco\source\repos\IdealistaLib\IdealistaLib\obj\Debug\netcoreapp3.1\IdealistaLib.pdb
+C:\Users\marco\OneDrive\Desktop\GitProjects\IdealistaLib\idealistaLib\bin\Debug\netcoreapp3.1\idealistaLib.deps.json
+C:\Users\marco\OneDrive\Desktop\GitProjects\IdealistaLib\idealistaLib\bin\Debug\netcoreapp3.1\idealistaLib.dll
+C:\Users\marco\OneDrive\Desktop\GitProjects\IdealistaLib\idealistaLib\bin\Debug\netcoreapp3.1\idealistaLib.pdb
+C:\Users\marco\OneDrive\Desktop\GitProjects\IdealistaLib\idealistaLib\obj\Debug\netcoreapp3.1\idealistaLib.AssemblyInfoInputs.cache
+C:\Users\marco\OneDrive\Desktop\GitProjects\IdealistaLib\idealistaLib\obj\Debug\netcoreapp3.1\idealistaLib.AssemblyInfo.cs
+C:\Users\marco\OneDrive\Desktop\GitProjects\IdealistaLib\idealistaLib\obj\Debug\netcoreapp3.1\idealistaLib.csproj.CoreCompileInputs.cache
+C:\Users\marco\OneDrive\Desktop\GitProjects\IdealistaLib\idealistaLib\obj\Debug\netcoreapp3.1\idealistaLib.dll
+C:\Users\marco\OneDrive\Desktop\GitProjects\IdealistaLib\idealistaLib\obj\Debug\netcoreapp3.1\idealistaLib.pdb
