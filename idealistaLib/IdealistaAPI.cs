@@ -48,22 +48,29 @@ namespace IdealistaLib
              * application/x-www-form-urlencoded" -d 'grant_type=client_credentials&scope=read'
              * "https://api.idealista.com/oauth/token" -k
              */
-            Client.DefaultRequestHeaders.TryAddWithoutValidation("Authorization", "Basic " + KEYSECRET);
-            var response = await Client.PostAsync("/oauth/token", new StringContent("grant_type=client_credentials&scope=read", Encoding.UTF8, "application/x-www-form-urlencoded"));
-            if (response.IsSuccessStatusCode)
+            try
             {
-                string jsonresponse = await response.Content.ReadAsStringAsync();
-                var json = JsonSerializer.Deserialize<AuthResponse>(jsonresponse);
-                this.BearerToken = json.access_token;
-                return json;
+                Client.DefaultRequestHeaders.TryAddWithoutValidation("Authorization", "Basic " + KEYSECRET);
+                var response = await Client.PostAsync("/oauth/token", new StringContent("grant_type=client_credentials&scope=read", Encoding.UTF8, "application/x-www-form-urlencoded"));
+                if (response.IsSuccessStatusCode)
+                {
+                    string jsonresponse = await response.Content.ReadAsStringAsync();
+                    var json = JsonSerializer.Deserialize<AuthResponse>(jsonresponse);
+                    this.BearerToken = json.access_token;
+                    return json;
+                }
+                else return null;
             }
-            else return null;
+            catch (Exception ex) {
+                return null;
+            }
         }
 
         public async Task<SearchResponse> SearchRequest(SearchFilter filter, string country)
         {
-
-            if (string.IsNullOrEmpty(BearerToken))
+            try
+            {
+                if (string.IsNullOrEmpty(BearerToken))
             {
 
                 throw new Exception("No Token here.");
@@ -78,7 +85,11 @@ namespace IdealistaLib
             string jsonresponse = await response.Content.ReadAsStringAsync();
             var json = JsonSerializer.Deserialize<SearchResponse>(jsonresponse);
             return json;
-
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
         }
     }
 }

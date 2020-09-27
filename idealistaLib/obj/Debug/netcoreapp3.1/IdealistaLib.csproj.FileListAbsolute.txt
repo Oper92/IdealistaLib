@@ -14,3 +14,4 @@ C:\Users\marco\OneDrive\Desktop\GitProjects\IdealistaLib\idealistaLib\obj\Debug\
 C:\Users\marco\OneDrive\Desktop\GitProjects\IdealistaLib\idealistaLib\obj\Debug\netcoreapp3.1\idealistaLib.csproj.CoreCompileInputs.cache
 C:\Users\marco\OneDrive\Desktop\GitProjects\IdealistaLib\idealistaLib\obj\Debug\netcoreapp3.1\idealistaLib.dll
 C:\Users\marco\OneDrive\Desktop\GitProjects\IdealistaLib\idealistaLib\obj\Debug\netcoreapp3.1\idealistaLib.pdb
+C:\Users\marco\OneDrive\Desktop\GitProjects\IdealistaLib\idealistaLib\obj\Debug\netcoreapp3.1\idealistaLib.csprojAssemblyReference.cache
